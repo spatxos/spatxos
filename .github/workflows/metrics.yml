@@ -54,6 +54,7 @@ jobs:
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_sponsors: yes
+          plugin_sponsors_past: yes
 
       - name: 🦑 General
         if: ${{ success() || failure() }}
